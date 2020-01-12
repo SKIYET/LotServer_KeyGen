@@ -80,7 +80,7 @@ $verbose && hex_dump($lic_info);
 
 // hack it
 modify_mac($lic_info, $mac);
-modify_expire($lic_info, 2099, 12, 31);
+modify_expire($lic_info, 9999, 12, 31);
 modify_hash($lic_info, $version);
 
 // encrypt and output
